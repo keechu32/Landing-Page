@@ -30,37 +30,41 @@
         <p class="infohead">Some Random Information</p>
         <div class="imagecontainer">
             <div class="imageinfo">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/barberry.png" alt="Image 1">
+                <img class="content" src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/barberry.png" alt="Image 1">
                 <p class="infotext">This is some subtext under an illustration or an image</p>
             </div>
             <div class="imageinfo">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/chilli.png" alt="Image 2">
+                <img class="content" src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/chilli.png" alt="Image 2">
                 <p class="infotext">This is some subtext under an illustration or an image</p>
             </div>
             <div class="imageinfo">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/pepper.png" alt="Image 3">
+                <img class="content" src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/pepper.png" alt="Image 3">
                 <p class="infotext">This is some subtext under an illustration or an image</p>
             </div>
             <div class="imageinfo">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/saffron.png" alt="Image 4">
+                <img class="content" src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/saffron.png" alt="Image 4">
                 <p class="infotext">This is some subtext under an illustration or an image</p>
             </div>
         </div>
     </div>
     <div class="quote">
-        <p class="cliche">This is an inspiring quote, or a testimonial from a customer. Maybe its just filling up space maybe people actually read it. Who knows? All I know is that it looks nice.</p>
-        <p class="person">-Thor, God of Thunder</p>
+        <div class="quotecontainer">
+            <p class="cliche">This is an inspiring quote, or a testimonial from a customer. Maybe its just filling up space maybe people actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="person">-Thor, God of Thunder</p>
+        </div>
     </div>
     <div class="container">
         <div class="bottomcard">
-        <p class="Call">Call to Action! It's Time!</p>
-        <p class="sometext">Sign uo for our product by clicking that button over there</p>
-        <button>Sign up</button>
+            <div class="aligner">
+                <p class="Call">Call to Action! It's Time!</p>
+                <p class="sometext">Sign up for our product by clicking that button over there</p>
+            </div>
+            <button id="bottom">Sign up</button>
         </div>
     </div>
     <div class="footer">
-        <h3>The Odin Project 2022</h3>
-        <p>All images are taken from The Odin Project website</p>
+        <p>The Odin Project 2022 All images are taken from:<p>
+        <a id="footlink" href="https://www.theodinproject.com/paths/foundations/courses/foundations">The Odin Project Website</a>
     </div>
     
 </body>

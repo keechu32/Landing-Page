@@ -6,9 +6,14 @@ body{
     display: flex;
     flex-direction: column;
 }
-img {
-    width: 200px;
-    height: 200px;
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 90px;
+    height: auto;
 }
 /*this is the header style*/
 .first-section{
@@ -59,13 +64,6 @@ a{
     color: #E5E7EB;
     padding-top: 0px;
 }
-button{
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-color: #F9FAF8;
-    font-size: 18px;
-    border-radius: 10px;
-}
 /*this is the information style*/
 .infohead{
     font-size: 36px;
@@ -79,6 +77,10 @@ button{
     justify-content: center;
     gap: 52px;
 }
+.content{
+    width: 200px;
+    height: 200px;
+}
 .imageinfo{
     font-size: 18px;
     color: grey;
@@ -87,6 +89,16 @@ button{
 /*this is the quote style*/
 .quote{
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.quotecontainer{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .cliche{
     font-size: 36px;
@@ -96,20 +108,52 @@ button{
 .person{
     font-size: 18px;
     font-weight: bold;
+    align-self: flex-end;
 }
 /*this is the call to action style*/
 .container{
     background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 .bottomcard{
     background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 12px;
+    gap: 200px;
+}
+.Call{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    margin-bottom: 0px;
 }
 .sometext{
+    font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    margin-top: 0px;
+}
+#bottom{
+    max-width: 90px;
+    height: 30px;
+    align-self: center;
 }
 /*in case it isn't obvious its the footer style :D*/
 .footer{
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+}
+#footlink{
+    font-size: 14px;
+    color: #F9FAF8;
 }
