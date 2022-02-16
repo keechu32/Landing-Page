@@ -6,6 +6,15 @@ body{
     display: flex;
     flex-direction: column;
 }
+img {
+    width: 200px;
+    height: 200px;
+}
+/*this is the header style*/
+.first-section{
+    background-color: #1F2937;
+    padding-bottom: 25px;
+}
 .HeaderLogo{
     font-size: 24px;
     color: #F9FAF8;
@@ -18,18 +27,6 @@ body{
     align-items: center;
     gap: 350px;
 }
-.head2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.headsub{
-    width: 350px;
-}
-.first-section{
-    background-color: #1F2937;
-    padding-bottom: 25px;
-}
 .links{
     gap: 16px;
 }
@@ -41,6 +38,14 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     gap: 20px;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headsub{
+    width: 350px;
 }
 .HeroMainText{
     font-size: 48px;
@@ -61,15 +66,25 @@ button{
     font-size: 18px;
     border-radius: 10px;
 }
+/*this is the information style*/
 .infohead{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 .imageinfo{
     font-size: 18px;
     color: grey;
+    width: 200px;
 }
+/*this is the quote style*/
 .quote{
     background-color: #E5E7EB;
 }
@@ -82,6 +97,7 @@ button{
     font-size: 18px;
     font-weight: bold;
 }
+/*this is the call to action style*/
 .container{
     background-color: #F9FAF8;
 }
@@ -91,6 +107,7 @@ button{
 .sometext{
     color: #E5E7EB;
 }
+/*in case it isn't obvious its the footer style :D*/
 .footer{
     background-color: #1F2937;
     color: #F9FAF8;
